@@ -8,6 +8,7 @@ header{
 }
 header nav ul{
 	display: flex;
+
 }
 header nav ul li{
 	list-style:none;
@@ -31,6 +32,7 @@ section#noticias{
 	width: 1100px;
 	height: auto;
 	margin: 0 auto;
+
 	
 }
 section#noticias ul li{
@@ -50,23 +52,22 @@ section#noticias .categoria{
 	background: #900;
 	color: #fff;
 	display: block;
-          padding: 5px;
+     padding: 5px;
 }
 section#noticias h2{
-	font-size: 35px;
-	color: #333333;
-	text-align: center;
-}
 font-size: 35px;
 color: #333333;
 text-align; center;
 }
-section#noticias h3}
+section#noticias h3{
  text-align: center;
  font-size: 35px;
  font-family: arial;
  margin: 25px 0;
  text-transform: uppercase;
+}
+section#noticias ul li{
+ display : flex;
 }
 section#noticias ul li a{
  text-align: center;
@@ -75,4 +76,11 @@ section#noticias ul li a{
  background: red;
  display: block;
  padding: 5px 0;
+}
+section#noticias ul li a:hover{
+ bckground: blue;
+}
+section#noticias ul li p{
+ text-align: center;
+ margin: 15px 0;
 }
